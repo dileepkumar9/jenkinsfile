@@ -8,17 +8,15 @@ steps{
 echo 'welcome to dev server'
 }
 }
-stage("prod")
-{
+stage("prod"){
 steps{
 echo 'welcome to prod server'
 }
 }
-stage("UAT")
-{
+stage("UAT"){
 steps{
-
 echo 'welcome to UAT server'
+}
 }
 }
 }
